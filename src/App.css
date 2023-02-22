@@ -8,7 +8,7 @@
 header {
   height: 70px;
   width: 100%;
-  background-color: blanchedalmond;
+  background-color: rgb(253, 228, 190);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -24,3 +24,60 @@ header {
 .menu{
   color: rgb(0, 0, 58);
 }
+
+.container{
+  position: relative;
+  display: flex;
+  height: 400px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.label{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 60px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  justify-content: center;
+  color: rgb(5, 20, 68);
+
+}
+
+.container:hover .label{
+  visibility: visible;
+  opacity: 1;
+}
+.container:hover .section_img{
+  filter: blur(10px);
+}
+.section_img{
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+}
+
+.side_by_container{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  justify-content: space-evenly;
+}
+
+.side_by{
+  width: 250px;
+  margin:20px;
+  height: 250px;
+  background-color: aquamarine;
+  border: black 1px solid;
+}
+
