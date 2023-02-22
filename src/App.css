@@ -6,17 +6,21 @@
 }
 
 header {
-  height: 50px;
+  height: 70px;
   width: 100%;
   background-color: blanchedalmond;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 0px 20px;
 }
 
 .logo{
-  height: 70px;
-  width: 100px;
+  height: 90px;
+  width: 135px;
+}
+
+.menu{
+  color: rgb(0, 0, 58);
 }
